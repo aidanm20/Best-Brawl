@@ -13,7 +13,17 @@
 	"upload_source_maps": true,
 	"compatibility_flags": [
 		"nodejs_compat"
-	]
+	],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "brawlTrackerDb",
+			"database_id": "fe965f58-bc9c-45fa-a697-23645eba81b8"
+		}
+	],
+	"triggers": {
+		"crons": ["*/30 * * * *"]
+	}
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
